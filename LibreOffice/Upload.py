@@ -1,4 +1,4 @@
-__author__ = 'Kan!skA'
+__author__ = 'Kan!skA & Ashish'
 
 import unittest
 import csv
@@ -20,7 +20,7 @@ def get_data(data):
     return rows
 
 @ddt
-class MyTestCase(unittest.TestCase):
+class LibreOffice(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Firefox()
         time.sleep(11)
